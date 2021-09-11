@@ -1,3 +1,3 @@
 Face Recognition System
 
-Prototype on www.facerecogsystem.heroku.com
+Prototype on www.facerecogsystem.herokuapp.com

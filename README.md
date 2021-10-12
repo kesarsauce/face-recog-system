@@ -1,3 +1,5 @@
-Face Recognition System
+## Face Recognition System
 
-Prototype on facerecogsystem.heroku.com
+Prototype on facerecogsystem.herokuapp.com (Try uploading a photo of Elon Musk!)
+
+#### Note: Update database with images in ./static/database

@@ -84,16 +84,14 @@ def display_image(filename):
         name = "Unknown"
     # print(name)
     y1, x2, y2, x1 = faceLoc
-    newimg = cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 255), 4)
-    newimg = cv2.putText(
-        newimg, name, (x1, y2), cv2.FONT_HERSHEY_PLAIN, 1, (255, 0, 0), 4
-    )
-    cv2.imwrite("static/images/k.jpg", newimg)
-    retval, buffer = cv2.imencode(".jpg", newimg)
+    newimg = cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
+    newimg = cv2.putText(newimg, name, (x1+6, y2-6),cv2.FONT_HERSHEY_COMPLEX, 1, (255, 255, 255), 2)
+    cv2.imwrite('static/images/k.jpg', newimg)
+    retval, buffer = cv2.imencode('.jpg', newimg)
     response = make_response(buffer.tobytes())
-    response.headers["Content-Type"] = "image/jpg"
+    response.headers['Content-Type'] = 'image/jpg'
     return response
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()

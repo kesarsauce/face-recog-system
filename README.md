@@ -4,7 +4,7 @@ Prototype on https://facerecogsystem.herokuapp.com (Try uploading a photo of Elo
 
 ## Local Setup
 
-**Clone the repo
+**Clone the repo**
 
 'git clone https://github.com/kesarsauce/face-recog-system.git'
 

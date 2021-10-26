@@ -4,14 +4,13 @@ Prototype on https://facerecogsystem.herokuapp.com (Try uploading a photo of Elo
 
 ## Local Setup
 
-**Clone the repo**
+```console
+# clone the repo
+$ git clone https://github.com/kesarsauce/face-recog-system.git
 
-`git clone https://github.com/kesarsauce/face-recog-system.git`
-
-**Install dependencies**
-
-`pip install -r requirements.txt`
-
+# install the dependencies
+$ python3 -m pip install -r requirements.txt
+```
 **Set environment variable in .env file**
 
 ```

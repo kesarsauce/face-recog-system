@@ -22,7 +22,7 @@ APP_SECRET_KEY=Your-secret-key
 
 Update database with images containing faces in `./static/database`
 
-`python app.py`
+Run `python app.py`
 
 Open `localhost:5000` in your browser.
 

@@ -56,7 +56,7 @@ def upload_image():
 
 @app.route("/display/<filename>")
 def display_image(filename):
-    # print('display_image filename: ' + filename)
+    # print('display_image filename:' + filename)
     path = "static/database"
     database = []
     className = []
